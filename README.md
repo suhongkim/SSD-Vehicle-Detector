@@ -35,10 +35,10 @@ Also, you can have some sample dataset with labels in this repository
 - Prior bounding boxes are created for each feature pixel 
 ![](./screenshots/boundingbox.png)
 - Loss Function: 
-![](./screenshots/loss.png)
   - Hard Negative Mining: Balance the positive samples and negative samples. 
   - L_conf: Entropy loss of multi-label classification. Note the idx=0 is background
   - L_loc: regression loss of bounding box offset, the conversion
+  ![](./screenshots/loss.png)
 - For test: 
   1. Normalized the classification output with softmax
   2. Implemented NMS (Non-Maximum Suppression) for filtering out
